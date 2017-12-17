@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "704166480207",
+    "firebase_url": "https://cookmate-21d4c.firebaseio.com",
+    "project_id": "cookmate-21d4c",
+    "storage_bucket": "cookmate-21d4c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:704166480207:android:c1daad357e6d35c8",
+        "android_client_info": {
+          "package_name": "com.axiom.cookmate"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "704166480207-2ksjj8sisqeeqd26lfoucmn06tujb0v0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.axiom.cookmate",
+            "certificate_hash": "642b90016ab7fbff3fc15dbb8e7eb9834c79c2b0"
+          }
+        },
+        {
+          "client_id": "704166480207-mi963pk18m91mfnj4ma2j2r7ij2ic04r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCq4Eg-E9Ry4-OvlfAExgT-AEgyoe2biIM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "704166480207-mi963pk18m91mfnj4ma2j2r7ij2ic04r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

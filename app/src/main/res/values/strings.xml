@@ -1,0 +1,159 @@
+<resources>
+    <!-- Common Strings -->
+    <string name="app_name">CookMate</string>
+    <string name="title_activity_recipe_navigation_drawer">CookMate</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="share_via_text">Share using</string>
+    <string name="my_recipe_string">My Recipes</string>
+    <string name="recipes_string">Recipes</string>
+    <string name="recipe_name_string">recipeName</string>
+
+    <string name="vegetarian">Vegetarian</string>
+    <string name="lowcarb">Low-Carb</string>
+    <string name="sugarConscious">Sugar-Conscious</string>
+    <string name="highProtein">High-Protein</string>
+    <string name="vegan">Vegan</string>
+    <string name="balanced">Balanced</string>
+    <string name="peanut_free">Peanut-Free</string>
+    <string name="tree_nut_free">Tree-Nut-Free</string>
+    <string name="alcohol_free">Alcohol-Free</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="diet_heading">Diet</string>
+    <string name="allergies_heading">Allergies</string>
+    <string name="calorie_count_heading">Calorie Range</string>
+    <string name="to_text">to</string>
+    <string name="no_internet_connection_snackbar">No network connection found</string>
+    <string name="event_widget_launched">widget launched</string>
+    <string name="event_shop_activity_launched">shop activity launched</string>
+    <string name="event_shop_list_share">Shopping list shared</string>
+    <string name="event_add_to_shoplist">Added to shopping list</string>
+    <string name="event_voice_input_clicked">Voice input clicked</string>
+
+    <!-- A11y -->
+    <string name="a11y_add_a_image">Add a image</string>
+    <string name="a11y_add_a_title">Add recipe name</string>
+    <string name="a11y_add_ingredient_button">Add ingredient</string>
+    <string name="a11y_add_instruction_button">Add instruction</string>
+    <string name="a11y_your_dish_image">Your dish image here</string>
+    <string name="a11y_dish_image">Image of %1$s</string>
+    <string name="add_to_cart">Add to cart</string>
+    <string name="a11y_search_button">Search button</string>
+    <string name="a11y_background_image">Background Image</string>
+    <string name="a11y_shop_background_image">Shop background image</string>
+    <string name="a11y_share_fab">Share</string>
+    <string name="a11y_fav_fab">Add as favourite</string>
+    <string name="a11y_delete_fab">Delete Recipe</string>
+    <string name="a11y_add_to_shopping_list">Add to Shopping List</string>
+    <string name="a11y_remove_row_button">Remove</string>
+    <string name="a11y_search_bar">Search Bar</string>
+
+    <!-- Create Recipe Activity -->
+    <string name="create_recipe_string">Create Recipe</string>
+    <string name="add_pic_dialog">Add a Photo!</string>
+    <string name="take_pic_option">Take a Picture</string>
+    <string name="choose_gallery_option">Choose from gallery</string>
+    <string name="pic_dialog_cancel_option">Cancel</string>
+    <string name="gallery_chooser_title">Select Image</string>
+    <string name="speech_not_supported_toast">Sorry,not supported</string>
+
+    <string name="recipe_name_error_title">Recipe Name Required</string>
+    <string name="recipe_name_error_body">Please add the recipe name to save</string>
+    <string name="recipe_ingredient_error_title">No Ingredient Added</string>
+    <string name="recipe_ingredient_error_body">Please add at least one ingredient to save</string>
+    <string name="recipe_instruction_error_title">No Instruction Added</string>
+    <string name="recipe_instruction_error_body">Please add at least one instruction to save</string>
+
+    <string name="title_text_hint">Recipe Name</string>
+    <string name="ingredients_heading">Ingredients</string>
+    <string name="instructions_heading">Instructions</string>
+    <string name="ingredient_name_hint">Ingredient name</string>
+    <string name="instruction_step1">Instruction Step</string>
+    <string name="saved_recipe_toast">%1$s recipe saved</string>
+
+    <!--My Recipes Activity -->
+    <string name="empty_fav_list_string">Find your favorite recipes here! To set a recipe as favorite, click the favorite button in the details page.</string>
+    <string name="empty_my_recipes_string">Find your own saved recipes here! Use Create Recipe option to add and store your recipes.</string>
+    <string name="delete_my_recipe">Delete recipe?</string>
+
+    <!-- Search Main Activity -->
+    <string name="no_search_entered_title">Sorry!</string>
+    <string name="enter_search_query_string">Please enter a recipe name or ingredient</string>
+    <string name="final_recipe_url_string">final_recipe_url</string>
+
+    <!--Search Results Activity -->
+    <string name="empty_search_results_string">Your search returned no recipes. Please refine your search and try again.</string>
+    <string name="added_to_shop_list">Added to shopping list</string>
+
+    <!--ShopList Activity -->
+    <string name="empty_shop_list_text">No shopping list added yet.</string>
+    <string name="shopping_list_title">Shopping List</string>
+
+    <!--WebView Activity -->
+    <string name="progress_dialog_text">Loading&#8230;</string>
+    <!--Detail Fragment -->
+    <string name="no_network_dialog_title">Oops!</string>
+    <string name="no_network_dialog_body">No network found.Please reconnect and try again.</string>
+    <string name="recipe_url_string">recipeUrl</string>
+    <string name="added_to_favourites_snackbar">Added to favourites</string>
+    <string name="remove_from_favourites_snackbar">Removed from favourites</string>
+    <string name="click_to_see_instructions">Instructions</string>
+    <string name="edamam_attribution_link">Edamam contribution link</string>
+    <string name="unnamed_fav_recipe">Favourite Recipe</string>
+    <string name="edamam_url">http://developer.edamam.com</string>
+
+    <!--Favourite List Fragment -->
+    <string name="favourites_string">My Favourites</string>
+
+    <!--ShopList Fragment -->
+    <string name="delete_shopping_list_dialog_title">Delete from shopping list?</string>
+
+    <!-- menu items -->
+    <string name="home_icon_title">Home</string>
+    <string name="favourites_icon_title">Favourite Recipes</string>
+    <string name="mic_icon">Microphone</string>
+    <string name="save_menu_item">SAVE</string>
+    <string name="share_menu_item">Share</string>
+    <string name="delete_menu_item">DELETE</string>
+    <string name="report_nav_item">Report Issue</string>
+    <string name="feedback_nav_item">Feedback</string>
+    <string name="nav_communicate_title">Communicate</string>
+    <string name="search_web_recipe">Search from Internet</string>
+    <string name="refine_search_text">Refine your search:</string>
+    <string name="type_search_bar_text">Type in recipe or ingredient name.</string>
+    <string name="nav_sign_out">Sign Out</string>
+    <string name="sign_in_text">Sign In</string>
+
+    <!-- Bookmark activity -->
+    <string name="bookmark_button_text">Bookmark this page</string>
+    <string name="bookmark_recipes_title">Bookmarked Recipes</string>
+    <string name="empty_bookmark_list_view">There are no recipes bookmarked yet.</string>
+    <string name="bookmark_activity_title">Bookmarked Recipes</string>
+    <string name="delete_bookmark_dialog_title">Delete recipe bookmark?</string>
+    <string name="enter_recipe_name">Enter recipe name to save</string>
+
+    <!-- MainAuthenticationActivity -->
+    <string name="title_activity_main_authentication">MainAuthenticationActivity</string>
+    <string name="skip_button">Skip</string>
+    <string name="signed_in_text">Sign in successful! %1$s</string>
+    <string name="title_activity_sync">SyncActivity</string>
+
+    <string name="sync_dialog_text">Syncing your data&#8230;</string>
+
+    <string-array name="heading_text">
+        <item>Search from a large collection of recipes</item>
+        <item>Google login</item>
+        <item>Add and save your recipes</item>
+        <item>Create shopping list</item>
+        <item>Bookmark internet recipes</item>
+    </string-array>
+    <string-array name="extra_text">
+        <item>Refine your search with calorie, diet and allergy specifications</item>
+        <item>Easy login to sync and access your data from multiple devices</item>
+        <item>Save recipes you like and also add your own recipes</item>
+        <item>Add ingredients to shopping lists and access them from simple widget</item>
+        <item>Search recipes from internet and bookmark them for future use</item>
+    </string-array>
+
+</resources>

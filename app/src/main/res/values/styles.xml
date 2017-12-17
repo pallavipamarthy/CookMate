@@ -1,0 +1,97 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="@style/Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:actionButtonStyle">@style/ActionButtonStyle</item>
+        <item name="windowActionBar">false</item>
+    </style>
+
+    <style name="DetailPage" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:actionButtonStyle">@style/ActionButtonStyle</item>
+    </style>
+
+    <style name="ActionBarActivityStyle" parent="@style/Theme.AppCompat.Light">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:actionButtonStyle">@style/ActionButtonStyle</item>
+        <item name="actionMenuTextColor">@android:color/white</item>
+    </style>
+
+    <style name="EditTextStyle" parent="Widget.AppCompat.EditText">
+        <item name="colorControlNormal">@color/colorAccent</item>
+        <item name="colorControlActivated">@color/colorAccent</item>
+        <item name="colorControlHighlight">@color/colorAccent</item>
+        <item name="android:textColor">@color/color_text_focus</item>
+        <item name="android:textColorHint">@color/color_text_hint</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="EmptyTextViewStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:visibility">invisible</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginStart">20dp</item>
+        <item name="android:layout_marginEnd">20dp</item>
+        <item name="android:layout_centerInParent">true</item>
+    </style>
+
+    <style name="NavigationViewStyle" parent="Widget.Design.NavigationView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_gravity">start</item>
+        <item name="android:fitsSystemWindows">true</item>
+        <item name="android:background">@color/colorBackground</item>
+        <item name="headerLayout">@layout/nav_header_main</item>
+        <item name="menu">@menu/activity_main_drawer</item>
+        <item name="itemIconTint">@color/colorAccent</item>
+    </style>
+
+    <style name="ToolbarStyle" parent="Widget.AppCompat.Toolbar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">?attr/actionBarSize</item>
+        <item name="android:background">?android:attr/colorPrimary</item>
+        <item name="popupTheme">@style/AppTheme.PopupOverlay</item>
+    </style>
+
+    <style name="ActionButtonStyle" parent="@android:style/Widget.Toolbar">
+        <item name="android:minWidth">70dp</item>
+        <item name="android:theme">@style/Theme.AppCompat.NoActionBar</item>
+    </style>
+
+    <style name="DialogFragmentStyle" parent="@style/Theme.AppCompat.Light.Dialog">
+        <item name="android:minWidth">70dp</item>
+        <item name="android:textColor">@color/colorAccent</item>
+    </style>
+    <style name="EditTextDialog" parent="@style/Theme.AppCompat.Light.Dialog">
+        <item name="android:minWidth">70dp</item>
+        <item name="android:textColor">@color/colorBackground</item>
+        <item name="android:paddingRight">5dp</item>
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:paddingTop">5dp</item>
+    </style>
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="FullscreenTheme" parent="AppTheme">
+        <item name="android:actionBarStyle">@style/FullscreenActionBarStyle</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:windowBackground">@null</item>
+        <item name="metaButtonBarStyle">?android:attr/buttonBarStyle</item>
+        <item name="metaButtonBarButtonStyle">?android:attr/buttonBarButtonStyle</item>
+    </style>
+
+    <style name="FullscreenActionBarStyle" parent="android:Widget.Holo.ActionBar">
+        <item name="android:background">@color/black_overlay</item>
+    </style>
+</resources>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.axiom.cookmate">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".activity.SearchMainActivity"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name=".activity.SearchResultsActivity"
+            android:windowSoftInputMode="adjustPan" />
+        <activity android:name=".activity.WebViewActivity" />
+        <activity
+            android:name=".activity.CreateRecipeActivity"
+            android:theme="@style/DetailPage"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name=".activity.FavouriteRecipesActivity"
+            android:configChanges="orientation" />
+
+        <provider
+            android:name=".data.RecipeContentProvider"
+            android:authorities="com.axiom.cookmate"
+            android:exported="false" />
+
+        <activity android:name=".activity.MyRecipesActivity" />
+        <activity
+            android:name=".activity.RecipeDetailActivity"
+            android:theme="@style/DetailPage" />
+        <activity
+            android:name=".activity.ShopDetailActivity"
+            android:theme="@style/ActionBarActivityStyle" />
+        <activity
+            android:name=".activity.ShoppingListActivity"
+            android:theme="@style/ActionBarActivityStyle" />
+
+        <service
+            android:name=".widget.ShopListRemoteService"
+            android:enabled="@bool/widget_detail_enabled"
+            android:exported="false"
+            android:permission="android.permission.BIND_REMOTEVIEWS" />
+
+        <receiver
+            android:name=".widget.ShoppingListWidgetProvider"
+            android:enabled="@bool/widget_detail_enabled">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+                <action android:name="com.axiom.cookmate.ACTION_DATA_UPDATED" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_shop_list" />
+        </receiver>
+
+        <service
+            android:name=".RecipeIntentService"
+            android:exported="false" />
+
+        <activity
+            android:name=".activity.SplashActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:theme="@style/FullscreenTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.WebRecipeSearchActivity" />
+        <activity android:name=".activity.BookmarkListActivity" />
+        <activity
+            android:name=".activity.BookmarkWebActivity"
+            android:theme="@style/ActionBarActivityStyle" />
+        <activity
+            android:name=".activity.MainAuthenticationActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/app_name"
+            android:theme="@style/FullscreenTheme" />
+        <activity android:name=".activity.NavigationalActivity" />
+        <activity
+            android:name=".activity.SyncActivity"
+            android:label="@string/title_activity_sync"/>
+    </application>
+
+</manifest>

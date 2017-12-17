@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+    android:layout_marginBottom="2dp"
+    android:layout_marginEnd="1dp"
+    android:layout_marginStart="2dp"
+    android:clickable="true"
+    android:elevation="4dp"
+    android:foreground="?android:attr/selectableItemBackground"
+    card_view:cardCornerRadius="4dp">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true">
+
+        <ImageView
+            android:id="@+id/recipe_image_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:contentDescription="@string/a11y_dish_image"
+            android:scaleType="centerCrop"
+            android:transitionName="recipeImage" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/list_item_gradient" />
+
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/list_recipe_name_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="20dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:maxLines="2"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+</android.support.v7.widget.CardView>
