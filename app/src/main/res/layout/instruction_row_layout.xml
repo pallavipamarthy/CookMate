@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <EditText
+        android:id="@+id/row_create_instruction_text"
+        style="@style/EditTextStyle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="16dp"
+        android:layout_weight="1"
+        android:hint="@string/instruction_step1"
+        android:inputType="text" />
+
+    <ImageView
+        android:id="@+id/row_add_instruction_view"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:clickable="true"
+        android:contentDescription="@string/a11y_add_instruction_button"
+        android:gravity="center"
+        android:src="@drawable/ic_add_button" />
+
+</LinearLayout>

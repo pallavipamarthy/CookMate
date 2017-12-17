@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_home"
+            android:title="@string/home_icon_title" />
+        <item
+            android:id="@+id/nav_create_recipe"
+            android:icon="@drawable/ic_menu_create"
+            android:title="@string/create_recipe_string" />
+        <item
+            android:id="@+id/nav_fav_recipes"
+            android:icon="@drawable/ic_menu_favorite"
+            android:title="@string/favourites_icon_title" />
+        <item
+            android:id="@+id/nav_my_recipes"
+            android:icon="@drawable/ic_menu_my_recipe"
+            android:title="@string/my_recipe_string" />
+        <item
+            android:id="@+id/nav_web_recipe"
+            android:icon="@drawable/ic_web_search"
+            android:title="@string/search_web_recipe" />
+        <item
+            android:id="@+id/nav_bookmarked_recipes"
+            android:icon="@drawable/ic_nav_bookmark"
+            android:title="@string/bookmark_recipes_title" />
+        <item
+            android:id="@+id/nav_shop_list"
+            android:icon="@drawable/ic_shop_cart"
+            android:title="@string/shopping_list_title" />
+    </group>
+    <item android:title="@string/nav_communicate_title">
+        <menu>
+            <item
+                android:id="@+id/nav_report_issue"
+                android:icon="@drawable/ic_report_issue"
+                android:title="@string/report_nav_item" />
+            <item
+                android:id="@+id/nav_feedback"
+                android:icon="@drawable/ic_feedback"
+                android:title="@string/feedback_nav_item" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/nav_sign_out"
+        android:icon="@drawable/ic_sign_out"
+        android:title="@string/nav_sign_out" />
+</menu>

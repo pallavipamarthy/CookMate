@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#9e2004</color>
+    <color name="colorPrimaryDark">#7c0f0c</color>
+    <color name="colorAccent">#6ba06f</color>
+    <color name="colorBackground">#8C111111</color>
+    <color name="color_text_hint">#606B6B6B</color>
+    <color name="color_text_focus">#6B6B6B</color>
+    <color name="light_background">#dbd9d9</color>
+    <color name="widget_background">#80000000</color>
+
+    <color name="black_overlay">#66000000</color>
+</resources>
