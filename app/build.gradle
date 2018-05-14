@@ -2,14 +2,6 @@ apply plugin: 'com.android.application'
 apply plugin: 'android-apt'
 
 android {
-    signingConfigs {
-        config {
-            keyAlias 'cookmate_gp_key'
-            keyPassword 'GPedward007'
-            storeFile file('C:/Projects/CookMate/app/cookmate_googleplay_keystore.jks')
-            storePassword 'GPedward007'
-        }
-    }
     compileSdkVersion 25
     buildToolsVersion "25.0.2"
     defaultConfig {
